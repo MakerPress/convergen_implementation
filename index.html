@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>covergen</title>
+
+<link rel="stylesheet" type="text/css" media="all" href="covergen.css"/>
+
+<script language="javascript" type="text/javascript" src="covergen.js"
+	jsonsrc="" posturl=""></script>
+
+<!-- remove this if 'jsonsrc' and/or 'posturl' arguments defined above -->
+<script language="javascript" type="text/javascript" src="data.js"></script>
+
+</head>
+<body>
+
+<div id="covergen-dom" style="width: 636px; height: 740px;">
+	<div id="covergen-dom-tpanel" style="visibility: hidden;">
+		<button id="covergen-dom-edtbtn" class="covergen-css-tbacv">
+		Cover Editor</button><button id="covergen-dom-defbtn">
+		Cover Definition
+		</button>
+	</div>
+	<div id="covergen-dom-inner" style="visibility: hidden;">
+		<div id="covergen-dom-cpanel">
+			<textarea id="covergen-dom-text" autocomplete="off"></textarea>
+			<button id="covergen-dom-submit">Submit Definition</button>
+			<span class="covergen-css-cwp">
+				Cover Template<br/><select id="covergen-dom-tpsel">
+				</select><input type="button" id="covergen-dom-tprl"
+				class="covergen-css-reload" title="Reload"/>
+			</span>
+			<div id="covergen-dom-ecbl">
+				<span class="covergen-css-cwp">
+					Text Block<br/><select id="covergen-dom-elsel">
+					</select><input type="button" id="covergen-dom-elrl"
+					class="covergen-css-reload" title="Reload"/>
+				</span><span class="covergen-css-cwp covergen-css-ls">
+					Left/X<br/><input type="number" id="covergen-dom-posx"
+					class="covergen-css-inum" step="1" max="600" min="0"
+					value="0" maxlength="3" autocomplete="off"/>
+				</span><span class="covergen-css-cwp covergen-css-ls">
+					Top/Y<br/><input type="number" id="covergen-dom-posy"
+					class="covergen-css-inum" step="1" max="600" min="0"
+					value="0" maxlength="3" autocomplete="off"/>
+				</span><span class="covergen-css-cwp covergen-css-ls">
+					Font PT<br/><input type="number" id="covergen-dom-font"
+					class="covergen-css-inum" step="1" max="600" min="1"
+					value="1" maxlength="3" autocomplete="off"/>
+				</span>
+			</div>
+			<div id="covergen-dom-ttbl">
+				If you've finished editing the cover - Submit a definition
+				by clicking the button to the right to download the image.
+			</div>
+		</div>
+		<div id="covergen-dom-edit">
+			<div id="covergen-dom-cover"></div>
+			<div id="covergen-dom-lmsg">Loading...</div>
+		</div>
+		<form id="covergen-dom-form" method="post" action="covergen.php">
+			<textarea name="json" id="covergen-dom-def" readonly="true"
+				spellcheck="false">Loading...</textarea>
+		</form>
+	</div>
+</div>
+
+</body>
+</html>
