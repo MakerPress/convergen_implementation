@@ -44,30 +44,180 @@ covergen.json = [
 	]
 },
 {
-	"imprint": "Strata Press",
-	"cover-template": "templates/600x600.png",
+	"imprint": "Strata Press - Crowd Scene",
+	"cover-template": "templates/strata/strata_crowd.png",
 	"width": 600,
 	"height": 600,
 	"hotspots": [
 		{
 			"element": "main-title",
-			"text": "Title",
-			"x": 50,
-			"y": 100,
-			"font-size": 96,
-			"font-color": "#000000",
-			"font-name": "Impact"
+			"text": "The Evolution\nof Data Products",
+			"x": 30,
+			"y": 60,
+			"font-size": 32,
+			"font-color": "#ffffff",
+			"font-name": "Arial"
 		},
 		{
 			"element": "authors",
-			"text": "Author list",
-			"x": 50,
-			"y": 280,
-			"font-size": 24,
+			"text": "Mike Loukides",
+			"x": 30,
+			"y": 220,
+			"font-size": 18,
+			"font-color": "#ffffff",
+			"font-name": "Arial"
+		},
+		{
+			"element": "subtitle",
+			"text": "The data that drives products\nis shifting from overt to covert",
+			"x": 30,
+			"y": 165,
+			"font-size": 16,
 			"font-color": "#000000",
-			"font-name": "Impact"
+			"font-name": "Arial"
 		}
 	]
-}];
+},
+{
+	"imprint": "Strata Press - Mall Scene",
+	"cover-template": "templates/strata/strata_mall.png",
+	"width": 600,
+	"height": 600,
+	"hotspots": [
+		{
+			"element": "main-title",
+			"text": "The Evolution\nof Data Products",
+			"x": 30,
+			"y": 60,
+			"font-size": 32,
+			"font-color": "#ffffff",
+			"font-name": "Arial"
+		},
+		{
+			"element": "authors",
+			"text": "Mike Loukides",
+			"x": 30,
+			"y": 220,
+			"font-size": 18,
+			"font-color": "#ffffff",
+			"font-name": "Arial"
+		},
+		{
+			"element": "subtitle",
+			"text": "The data that drives products\nis shifting from overt to covert",
+			"x": 30,
+			"y": 165,
+			"font-size": 16,
+			"font-color": "#000000",
+			"font-name": "Arial"
+		}
+	]
+},
+{
+	"imprint": "Strata Press - Building Scene",
+	"cover-template": "templates/strata/strata_building.png",
+	"width": 600,
+	"height": 600,
+	"hotspots": [
+		{
+			"element": "main-title",
+			"text": "The Evolution\nof Data Products",
+			"x": 30,
+			"y": 60,
+			"font-size": 32,
+			"font-color": "#ffffff",
+			"font-name": "Arial"
+		},
+		{
+			"element": "authors",
+			"text": "Mike Loukides",
+			"x": 30,
+			"y": 220,
+			"font-size": 18,
+			"font-color": "#ffffff",
+			"font-name": "Arial"
+		},
+		{
+			"element": "subtitle",
+			"text": "The data that drives products\nis shifting from overt to covert",
+			"x": 30,
+			"y": 165,
+			"font-size": 16,
+			"font-color": "#000000",
+			"font-name": "Arial"
+		}
+	]
+},
+{
+	"imprint": "Strata Press - Harbor Scene",
+	"cover-template": "templates/strata/strata_harbor.png",
+	"width": 600,
+	"height": 600,
+	"hotspots": [
+		{
+			"element": "main-title",
+			"text": "The Evolution\nof Data Products",
+			"x": 30,
+			"y": 60,
+			"font-size": 32,
+			"font-color": "#ffffff",
+			"font-name": "Arial"
+		},
+		{
+			"element": "authors",
+			"text": "Mike Loukides",
+			"x": 30,
+			"y": 220,
+			"font-size": 18,
+			"font-color": "#ffffff",
+			"font-name": "Arial"
+		},
+		{
+			"element": "subtitle",
+			"text": "The data that drives products\nis shifting from overt to covert",
+			"x": 30,
+			"y": 165,
+			"font-size": 16,
+			"font-color": "#000000",
+			"font-name": "Arial"
+		}
+	]
+},	{
+		"imprint": "Strata Press - Highway Scene",
+		"cover-template": "templates/strata/strata_highway.png",
+		"width": 600,
+		"height": 600,
+		"hotspots": [
+			{
+				"element": "main-title",
+				"text": "The Evolution\nof Data Products",
+				"x": 30,
+				"y": 60,
+				"font-size": 32,
+				"font-color": "#ffffff",
+				"font-name": "Arial"
+			},
+			{
+				"element": "authors",
+				"text": "Mike Loukides",
+				"x": 30,
+				"y": 220,
+				"font-size": 18,
+				"font-color": "#ffffff",
+				"font-name": "Arial"
+			},
+			{
+				"element": "subtitle",
+				"text": "The data that drives products\nis shifting from overt to covert",
+				"x": 30,
+				"y": 165,
+				"font-size": 16,
+				"font-color": "#000000",
+				"font-name": "Arial"
+			}
+		]
+	}
+
+];
 
 covergen.posturl = 'covergen.php';
